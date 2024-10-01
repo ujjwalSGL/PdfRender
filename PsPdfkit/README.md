@@ -1,11 +1,17 @@
-Installs the PSPDFKit npm package and adds it as a project dependency:
+Installation
 
+Install PSPDFKit as a Project Dependency:
 
+Run the following command in your project directory:
+
+```
 npm install --save pspdfkit
 
+```
+ copy PSPDFKit for Web Distribution:
+ After installing the package, copy the PSPDFKit distribution files to your project’s assets directory. Execute the following command:
 
 
-Run the following command to copy the PSPDFKit for Web distribution to the assets directory in your project’s root folder:
-
-
+```
 cp -R ./node_modules/pspdfkit/dist/ ./assets/
+
