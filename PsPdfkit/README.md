@@ -1,8 +1,11 @@
-# React + Vite
+Installs the PSPDFKit npm package and adds it as a project dependency:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+npm install --save pspdfkit
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+
+Run the following command to copy the PSPDFKit for Web distribution to the assets directory in your project’s root folder:
+
+
+cp -R ./node_modules/pspdfkit/dist/ ./assets/
